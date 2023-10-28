@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>Tailwind CSS Setup | Landing Page</title>
+  </head>
+  <body>
+    <div
+      id="background"
+      style="
+        background-image: url(assets/bg-image.avif);
+        height: 100vh;
+        width: 100vw;
+        filter: brightness(0.4);
+        position: absolute;
+      "
+    ></div>
+    <div class="container relative z-10">
+      <header class="h-14 flex justify-between place-items-center px-4">
+        <h1
+          class="text-white font-bold text-2xl font-sans hover:cursor-pointer"
+        >
+          Creating
+        </h1>
+        <nav>
+          <ul class="flex space-x-8">
+            <li
+              class="text-white text-sm font-semibold hover:text-blue-400 hover:cursor-pointer"
+            >
+              Home
+            </li>
+            <li
+              class="text-white text-sm font-semibold hover:text-blue-400 hover:cursor-pointer"
+            >
+              Templates
+            </li>
+            <li
+              class="text-white text-sm font-semibold hover:text-blue-400 hover:cursor-pointer"
+            >
+              My Learning
+            </li>
+            <li
+              class="text-white text-sm font-semibold hover:text-blue-400 hover:cursor-pointer"
+            >
+              Developed
+            </li>
+            <li
+              class="text-white text-sm font-semibold hover:text-blue-400 hover:cursor-pointer"
+            >
+              About
+            </li>
+            <li
+              class="text-white text-sm font-semibold hover:text-blue-400 hover:cursor-pointer"
+            >
+              Contact
+            </li>
+          </ul>
+        </nav>
+        <div>
+          <ul class="flex space-x-2">
+            <li>
+              <i class="ri-circle-fill text-white text-xs opacity-50"></i>
+            </li>
+            <li>
+              <i class="ri-circle-fill text-white text-xs opacity-50"></i>
+            </li>
+            <li>
+              <i
+                class="ri-twitter-fill text-white text-xl hover:text-blue-400 hover:cursor-pointer"
+              ></i>
+            </li>
+            <li>
+              <i
+                class="ri-instagram-fill text-white text-xl hover:text-blue-400 hover:cursor-pointer"
+              ></i>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/vikashkumar003/"
+                target="_blank"
+              >
+                <i
+                  class="ri-linkedin-box-fill text-white text-xl hover:text-blue-400 hover:cursor-pointer"
+                ></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Ninja-Vikash" target="_blank">
+                <i
+                  class="ri-github-fill text-white text-xl hover:text-blue-400 hover:cursor-pointer"
+                ></i>
+              </a>
+            </li>
+            <li>
+              <i class="ri-circle-fill text-white text-xs opacity-50"></i>
+            </li>
+            <li>
+              <i class="ri-circle-fill text-white text-xs opacity-50"></i>
+            </li>
+          </ul>
+        </div>
+      </header>
+
+      <main
+        class="container flex justify-center place-items-center relative z-1"
+        style="height: calc(100vh - 56px); width: 100vw"
+      >
+        <section
+          class="container flex justify-center place-items-center"
+          style="height: 100%; width: 50%"
+        >
+          <img
+            src="assets/developer.png"
+            height="700px"
+            width="600px"
+            alt=""
+            style="filter: brightness(0.7)"
+          />
+        </section>
+
+        <section
+          class="container relative z-1 py-20"
+          style="height: 50%; width: 50%"
+        >
+          <h2 class="text-5xl text-white font-semibold">
+            Ninja Vikash <br />Developer
+          </h2>
+          <p class="text-2xl text-slate-200 my-2">
+            I have expertize in HTML, CSS, <br />
+            TailWind CSS & JavaScript
+          </p>
+          <button
+            class="text-xs font-bold text-white px-8 py-2 border-2 border-slate-100 rounded hover:bg-black hover:opacity-60"
+          >
+            SEE MY PORTFOLIO
+          </button>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
